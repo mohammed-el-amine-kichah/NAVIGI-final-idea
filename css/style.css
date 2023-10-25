@@ -81,6 +81,13 @@ body {
 .hero_area.sub_pages {
   height: auto;
 }
+.fix-top{
+  position: fixed;
+  top: -20px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
 
 #navbarSupportedContent {
   width: 100%;
