@@ -26,8 +26,9 @@
 }
 :root {
     --primary-color: #2959ac;
-    --secondary-color: #ff7074;
-    --third-color: linear-gradient(to right, #2959ac 10%, #ff7074 90%);
+    --secondary-color: #2959ac;   
+   --third-color: linear-gradient(to right, #2959ac 10%, #2959ac 90%); 
+   ;
 }
 
 body,
@@ -161,7 +162,7 @@ form.sign-in-form {
   border-color: var(--secondary-color);
 }
 
-.btn, .btn2 {
+.mybtn {
   width: 150px;
   background-color: var(--secondary-color);
   border: none;
@@ -175,12 +176,11 @@ form.sign-in-form {
   cursor: pointer;
   transition: 0.5s;
 }
-.btn2 {
-    background-color: var(--primary-color);
-}
 
-.btn:hover {
+
+.mybtn:hover {
   background-color: var(--secondary-color);
+ 
 }
 .panels-container {
   position: absolute;
@@ -248,16 +248,20 @@ form.sign-in-form {
   padding: 0.7rem 0;
 }
 
-.btn.transparent {
+.mybtn.transparent {
   margin: 0;
-  background: none;
-  border: 2px solid #fff;
+  background: whitesmoke;
   width: 130px;
   height: 41px;
+  color: var(--primary-color);
   font-weight: 600;
   font-size: 0.8rem;
 }
-
+.mybtn.transparent:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 2px solid white;
+}
 .right-panel .image,
 .right-panel .content {
   transform: translateX(800px);

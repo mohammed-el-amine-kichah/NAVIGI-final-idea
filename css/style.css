@@ -337,6 +337,7 @@ a:focus {
 
 .shop_section .heading_container {
   margin-bottom: 20px;
+  margin-top: -80px;
 }
 
 .category-box {
@@ -865,4 +866,56 @@ a:focus {
 }
 
 /* end footer section*/
+
+.contact_section {
+  background-color: #fff;
+  
+  padding: 50px 0;
+}
+
+.contact_section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact_section form {
+  background-color: var(--whiter-clr-);
+
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact_section input[type="text"],
+.contact_section input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  
+  transition: 0.5s;
+  border-radius: 49px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact_section input[type="button"] {
+    width: 130px;
+    background-color: var(--primary-clr-);
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact_section input[type="button"]:hover {
+  background-color: #0069d9;
+}
+
 /*# sourceMappingURL=style.css.map */
