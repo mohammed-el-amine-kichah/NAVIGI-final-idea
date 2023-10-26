@@ -27,6 +27,10 @@
   <link href="css/style.css" rel="stylesheet" />
   
 
+  
+
+  
+
 
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
@@ -83,44 +87,37 @@
     <!-- end header section -->
 
   </div>
-  <!-- end hero area -->
-
-    <!-- contact section -->
-
-    <section class="contact_section ">
-      <div class="container px-0">
-        <div class="heading_container heading_center">
-          <h2>
-            Contact Us
-          </h2>
-          </div>
-      </div>
-      <div class="container container-lg">
-        <div class="row">
-          <div class="col-md-6 col-lg-5 px-0">
-            <form action="#">
-              <div>
-                <input type="text" placeholder="Name" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="d-flex ">
-                <input type="button" value="send " class="btn">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    
-    </section>
   
+  <!-- contact section -->
+  <div class="container contact-container ">
+    
+    <div class="col-form">
+        <form action=""  method="POST">
+          <h2 class="title">contact us</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Full Name" name="username" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div class="input-field">
+            <i class="fa fa-phone-volume"></i>
+
+            <input type="text" placeholder="Phone Number" name="phone" required/>
+          </div>
+          <div class="input-field">
+            <i class="fa fa-comment-dots"></i>
+            <input type="text" placeholder="message" name="message" required/>
+          </div>
+          <input type="submit" value="SEND" class="send-btn" />
+          </form>
+          </div>
+          <div class="col-image">
+            <img src="/navigi-images/msg.svg" >
+          </div>
+    </div>
     <!-- end contact section -->
     
   <!-- info section -->
@@ -185,6 +182,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <script src="js/custom.js"></script>
+  <script
+  src="https://kit.fontawesome.com/64d58efce2.js"
+  crossorigin="anonymous"
+></script>
 
 </body>
 

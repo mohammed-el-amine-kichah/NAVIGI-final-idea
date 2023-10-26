@@ -258,6 +258,7 @@ a:focus {
   background-color: var(--primary-clr-);
   padding: 25px;
   border-radius: 15px;
+  margin-top: 60px;
 }
 
 .slider_section .row {
@@ -344,7 +345,7 @@ a:focus {
 
 .shop_section .heading_container {
   margin-bottom: 20px;
-  margin-top: -80px;
+  margin-top: 10px;
 }
 
 .category-box {
@@ -646,6 +647,8 @@ a:focus {
 
 .contact_section {
   position: relative;
+  margin-top: 35px;
+  
 }
 
 .contact_section .container-bg {
@@ -664,8 +667,9 @@ a:focus {
   justify-content: center;
 }
 
+
 .contact_section form {
-  padding-right: 35px;
+  padding-right: 25px;
   padding: 45px 20px;
 }
 
@@ -681,19 +685,22 @@ a:focus {
 }
 
 .contact_section input::-webkit-input-placeholder {
-  color: #131313;
+  color: #9b9292dd;
 }
 
 .contact_section input:-ms-input-placeholder {
-  color: #131313;
+  color: #9b9292dd;
 }
 
 .contact_section input::-ms-input-placeholder {
-  color: #131313;
+  
+  color: #9b9292dd;
 }
 
 .contact_section input::placeholder {
-  color: #131313;
+  color: #9b9292dd;
+  font-family : "poppins", sans-serif;
+  padding-left: 20px;
 }
 
 .contact_section input.message-box {
@@ -701,22 +708,23 @@ a:focus {
 }
 
 .contact_section button {
-  display: inline-block;
-  padding: 12px 45px;
-  background-color: var(--secondary-clr-);
-  color: #ffffff;
-  border: 1px solid var(--secondary-clr-);
-  border-radius: 0;
+  padding: 12px 30px;
+  background-color: var(--primary-clr-);
+  border: 1px solid var(--whiter-clr-);
   -webkit-transition: all .3s;
   transition: all .3s;
   display: block;
   color: #fff;
-  margin: 35px auto 0 auto;
+  border-radius: 10px;
+  margin: 35px 100px 0 300px ;
+  font-weight: 600;
+  text-transform: uppercase ;
+  letter-spacing: 2px;
 }
 
 .contact_section button:hover {
-  background-color: transparent;
-  color: var(--secondary-clr-);
+  background-color: #0d82ff;
+  color: whitesmoke;
 }
 
 .client_section .heading_container {
@@ -874,55 +882,93 @@ a:focus {
 
 /* end footer section*/
 
-.contact_section {
-  background-color: #fff;
-  
-  padding: 50px 0;
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+}
+.col-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact_section h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
+.col-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact_section form {
-  background-color: var(--whiter-clr-);
-
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
 }
 
-.contact_section input[type="text"],
-.contact_section input[type="email"] {
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
   width: 100%;
-  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.send-btn {
+  width: 100px;
+  background-color: var(--primary-clr-);
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 10px 0;
-  
+  margin: 0 10px 50px 200px ;
+  cursor: pointer;
   transition: 0.5s;
-  border-radius: 49px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact_section input[type="button"] {
-    width: 130px;
-    background-color: var(--primary-clr-);
-    border: none;
-    outline: none;
-    height: 49px;
-    border-radius: 49px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.contact_section input[type="button"]:hover {
-  background-color: #0069d9;
+.mybtn:hover {
+  background-color: rgb(52, 128, 234);
 }
 
 /*# sourceMappingURL=style.css.map */
