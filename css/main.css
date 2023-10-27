@@ -131,7 +131,13 @@ form.sign-in-form {
   padding: 0.7rem 0;
   font-size: 1rem;
 }
-
+.password-error {
+  display: none;
+  color: red;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
 .social-media {
   display: flex;
   justify-content: center;

@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    <link rel="shortcut icon" href="/navigi-images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" href="navigi-images/favicon.png" type="image/x-icon">
       <!-- slider stylesheet -->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
@@ -73,7 +73,7 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="../php/signin.php" class="sign-in-form" method="POST">
+          <form action="php/signin.php" id="loginForm"  class="sign-in-form" method="POST">
             <h2 class="title">Sign In</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -83,6 +83,7 @@
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" name="password" required/>
             </div>
+            <span id="passwordError" class="password-error">Incorrect password, try again</span>
             <input type="submit" value="Login" class="mybtn" />
 
             <p class="social-text">Or Sign in with social platforms</p>
@@ -99,7 +100,7 @@
           </form>
 
 
-          <form action="../php/signup.php" class="sign-up-form" method="POST">
+          <form action="php/signup.php" class="sign-up-form" method="POST">
             <h2 class="title">Sign Up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -152,7 +153,7 @@
       </div>
     </div>
 
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
 
     <script
     src="https://kit.fontawesome.com/64d58efce2.js"

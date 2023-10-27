@@ -402,28 +402,28 @@ a:focus {
 
 
 .box-mechanic {
-  background-image: url(/navigi-images/mechanic.svg);
+  background-image: url(../navigi-images/mechanic.svg);
 }
 .box-welder{
-  background-image: url(/navigi-images/souder.svg);
+  background-image: url(../navigi-images/souder.svg);
 }
 .box-carpenter{
-  background-image: url(/navigi-images/carpenter.svg);
+  background-image: url(../navigi-images/carpenter.svg);
 }
 .box-electrician{
-  background-image: url(/navigi-images/electrician.svg);
+  background-image: url(../navigi-images/electrician.svg);
 }
 .box-plumber {
-  background-image: url(/navigi-images/Plumber.svg);
+  background-image: url(../navigi-images/Plumber.svg);
 }
 .box-painter {
-  background-image: url(/navigi-images/painter.svg);
+  background-image: url(../navigi-images/painter.svg);
 }
 .box-mason{
-  background-image: url(/navigi-images/mason.svg);
+  background-image: url(../navigi-images/mason.svg);
 }
 .box-tailor{
-  background-image: url(/navigi-images/tailor.svg);
+  background-image: url(../navigi-images/tailor.svg);
 }
 
 .shop_section .box:hover{

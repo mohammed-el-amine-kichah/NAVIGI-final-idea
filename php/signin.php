@@ -18,10 +18,10 @@ if ($result->num_rows === 0) {
     if (password_verify($password, $row['password'])) {
         // Password is correct, set session variables
         $_SESSION['id'] = $row['id'];
-        header("Location: ../index.php");
+        header("Location: ../index.html");
         exit(); // Terminate script to prevent further execution
     } else {
-        echo "Your email or password is incorrect!";
+        echo '<script>document.getElementById("passwordError").style.display = "block";</script>';
     }
 }
 
