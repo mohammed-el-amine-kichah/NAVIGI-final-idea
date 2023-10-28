@@ -24,18 +24,15 @@
       <!-- header section strats -->
       <header class="header_section">
         <nav class="navbar navbar-expand-lg custom_nav-container fix-top">
-          <a class="navbar-brand" href="index.html">
-            <span id="TITLE">
-              NAVIGI
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""></span>
-          </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="logo-header">
+              <a href="index.html">
+                <img src="/navigi-images/navigi-logo.svg" alt="NAVIGI" width="80px">
+              </a>
+            </div>
             <ul class="navbar-nav  ">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -58,12 +55,16 @@
               </li>
             </ul>
 
-            <div class="user_option">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <a class="nav-link" href="login.html">
-                Login
-              </a>
-            </div>
+            <ul class="navbar-nav-login">
+              <li class="nav-item active">
+                <div class="user_option">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <a class="nav-link" href="login.html">
+                    Login
+                    </a>
+                </div>
+              </li>
+            </ul>
 
           </div>
         </nav>

@@ -28,6 +28,10 @@
         margin: 5px 0;
     }
 
+    .logo-header{
+        display: none;
+    }
+
     .slider_section .detail-box {
         padding-left: 0;
     }
@@ -66,6 +70,19 @@
         width: 45px;
         height: 45px;
     }
+    
+}
+
+@media (min-width: 993px){
+    .navbar-brand{
+        display: none;
+    } 
+    #navbarSupportedContent {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        }
 }
 
 @media (max-width: 768px) {
@@ -122,7 +139,9 @@
     .gift_section .detail-box {
         padding: 0 5px;
     }
-    
+    .navbar-brand{
+        display: none;
+    } 
     
 }
 
@@ -132,18 +151,34 @@
     .container {
         max-width: 1170px;
     }
-    .navbar-brand{
-        display: none;
-    }
+    
     #navbarSupportedContent {
     margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
     }
+
+    .navbar-brand{
+        display: none;
+    } 
 }
 @media (min-width:768px) {
-    .navbar-brand{
-        display: none;
-    }
+
     #navbarSupportedContent {
     margin: 20px;
     }
+
+    
 }
+
+
+/*
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  */

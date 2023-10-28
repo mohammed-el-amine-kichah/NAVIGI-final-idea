@@ -89,6 +89,9 @@ body {
   z-index: 9999;
 }
 
+
+
+
 #navbarSupportedContent {
   width: 100%;
   background-color: var(--whiter-clr-);
@@ -96,7 +99,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 0;
-  border-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   margin: 0 20px 20px 20px;
 }
 
@@ -116,6 +120,13 @@ body {
   color: var(--secondary-clr-);
   text-align: center;
   text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.navbar-nav-login{
+  padding: 5px 25px;
+  color: var(--secondary-clr-);
+  text-align: center;
   border-radius: 5px;
 }
 
@@ -177,10 +188,6 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  outline: none;
-}
-
-.custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
   height: 42px;
@@ -235,6 +242,7 @@ a:focus {
   top: 0;
 }
 
+
 .user_option {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,7 +266,7 @@ a:focus {
   background-color: var(--primary-clr-);
   padding: 25px;
   border-radius: 15px;
-  margin-top: 60px;
+  margin-top: 7%;
 }
 
 .slider_section .row {
