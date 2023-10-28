@@ -19,12 +19,12 @@ if ($result->num_rows > 0) {
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     // Use a prepared statement to prevent SQL injection
-    $stmt = $conn->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO users (username, email, pwd) VALUES (?, ?, ?)");
     $stmt->bind_param("sss", $username, $email, $hashed_password);
     $stmt->execute();
 
     // Redirect the user to the login page
-    header("Location: signin.php");
+    header("Location: ../index.html");
     exit(); // Terminate script to prevent further execution
 }
 
