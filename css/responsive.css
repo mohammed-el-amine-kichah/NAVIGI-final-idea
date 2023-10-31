@@ -122,6 +122,12 @@
         margin: 0 25px 25px;
     }
     
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
     
 }
 
