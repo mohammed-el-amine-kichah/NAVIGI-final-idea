@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("font-awesome.min.css");
 
-:root{
-  --primary-clr-:#2959AC;
-  --secondary-clr-:#081D42;
-  --whiter-clr- :#e6ebf2;
+:root {
+  --primary-clr-: #2959ac;
+  --secondary-clr-: #081d42;
+  --whiter-clr-: #e6ebf2;
 }
 
-.secondary-color{
+.secondary-color {
   color: var(--secondary-clr-);
 }
 
-.primary-color{
+.primary-color {
   color: var(--primary-clr-);
 }
 
@@ -66,11 +66,6 @@ body {
   text-align: center;
 }
 
-
-
-
-
-
 /*header section*/
 .hero_area {
   padding: 0 45px;
@@ -80,7 +75,7 @@ body {
   height: auto;
 }
 
-.fix-top{
+.fix-top {
   position: fixed;
   top: -20px;
   left: 0;
@@ -124,7 +119,7 @@ body {
   border-radius: 5px;
 }
 
-.navbar-nav-login{
+.navbar-nav-login {
   padding: 5px 25px;
   color: var(--secondary-clr-);
   text-align: center;
@@ -186,7 +181,7 @@ a:focus {
   padding: 0;
   width: 37px;
   height: 42px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .custom_nav-container .navbar-toggler span {
@@ -198,10 +193,11 @@ a:focus {
   transition: all 0.3s;
   position: relative;
   border-radius: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
+.custom_nav-container .navbar-toggler span::before,
+.custom_nav-container .navbar-toggler span::after {
   content: "";
   position: absolute;
   left: 0;
@@ -210,7 +206,7 @@ a:focus {
   background-color: #000000;
   top: -10px;
   border-radius: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .custom_nav-container .navbar-toggler span::after {
@@ -242,16 +238,11 @@ a:focus {
   color: #000000;
 }
 
-#login-nav{
+#login-nav {
   list-style: none;
 }
 
 /*end header section*/
-
-
-
-
-
 
 /*information section*/
 
@@ -295,7 +286,7 @@ a:focus {
   color: var(--secondary-clr-);
   border: 1px solid white;
   border-radius: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-top: 25px;
   text-transform: uppercase;
 }
@@ -306,9 +297,6 @@ a:focus {
 }
 
 /* end information section */
-
-
-
 
 /* Categories Section*/
 
@@ -334,13 +322,13 @@ a:focus {
 .box-mechanic {
   background-image: url(../navigi-images/mechanic.svg);
 }
-.box-welder{
+.box-welder {
   background-image: url(../navigi-images/souder.svg);
 }
-.box-carpenter{
+.box-carpenter {
   background-image: url(../navigi-images/carpenter.svg);
 }
-.box-electrician{
+.box-electrician {
   background-image: url(../navigi-images/electrician.svg);
 }
 .box-plumber {
@@ -349,41 +337,41 @@ a:focus {
 .box-painter {
   background-image: url(../navigi-images/painter.svg);
 }
-.box-mason{
+.box-mason {
   background-image: url(../navigi-images/mason.svg);
 }
-.box-tailor{
+.box-tailor {
   background-image: url(../navigi-images/tailor.svg);
 }
 
-.categories_section .box:hover{
+.categories_section .box:hover {
   transform: scale(1.1);
 }
 
 .categories_section .box a {
-  color: white ;
+  color: white;
 }
 
-.dark_over{
+.dark_over {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: #000000;
-   opacity: 0.5;
-   transition: all 0.3s;
-   border-radius: 15px;
+  opacity: 0.5;
+  transition: all 0.3s;
+  border-radius: 15px;
 }
 
-.box h6{
+.box h6 {
   z-index: 100;
   color: white;
   font-size: 27px;
   text-shadow: -2px 2px 4px black;
 }
 
-.box:hover .dark_over{
+.box:hover .dark_over {
   opacity: 0.1;
 }
 
@@ -400,7 +388,7 @@ a:focus {
   color: #ffffff;
   border: 1px solid var(--secondary-clr-);
   border-radius: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .categories_section .btn-box a:hover {
@@ -410,53 +398,49 @@ a:focus {
 
 /* END Categories Section */
 
-
-
-
-
 /* Workers Section */
 
-.worker{
+.worker {
   min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   flex-direction: column;
 }
 
-.slide-container{
+.slide-container {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
 }
 
-.slide-content{
+.slide-content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
 
-.card{
+.card {
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .image-content,
-.card-content{
+.card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 14px;
 }
 
-.image-content{
+.image-content {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -467,8 +451,8 @@ a:focus {
 }
 
 .overlay::before,
-.overlay::after{
-  content: '';
+.overlay::after {
+  content: "";
   position: absolute;
   right: 0;
   bottom: -40px;
@@ -477,21 +461,21 @@ a:focus {
   background-color: var(--primary-clr-);
 }
 
-.overlay::after{
+.overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.card-image{
+.card-image {
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   padding: 3px;
 }
 
-.card-image .card-img{
+.card-image .card-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -499,19 +483,19 @@ a:focus {
   border: 4px solid var(--primary-clr-);
 }
 
-.name{
+.name {
   font-size: 19px;
   font-weight: 500;
   color: var(--secondary-clr-);
 }
 
-.description{
+.description {
   font-size: 18px;
   color: var(--secondary-clr-);
   text-align: center;
 }
 
-.button{
+.button {
   border: none;
   font-size: 16px;
   color: white;
@@ -526,7 +510,7 @@ a:focus {
   transition: all 0.3s ease;
 }
 
-.button:hover{
+.button:hover {
   background: var(--secondary-clr-);
 }
 
@@ -535,43 +519,38 @@ a:focus {
   color: var(--secondary-clr-);
 }
 
-.swiper-navBtn{
+.swiper-navBtn {
   color: var(--primary-clr-);
   transition: color 0.3s ease;
 }
 
-.swiper-navBtn:hover{
+.swiper-navBtn:hover {
   color: var(--primary-clr-);
 }
 
 .swiper-navBtn::before,
-.swiper-navBtn::after{
+.swiper-navBtn::after {
   font-size: 35px;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   right: 0;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   left: 0;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background-color: var(--primary-clr-);
   opacity: 1;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: var(--primary-clr-);
 }
 
-
 /* END Workers Section */
-
-
-
-
 
 /* About Navigi's Team Section */
 
@@ -632,8 +611,6 @@ a:focus {
 
 /* END About Navigi's Team Section */
 
-
-
 /* info section */
 .info_section {
   position: relative;
@@ -687,7 +664,6 @@ a:focus {
 
 /* end info section */
 
-
 /* footer section*/
 
 .footer_section {
@@ -708,8 +684,6 @@ a:focus {
 }
 
 /* end footer section*/
-
-
 
 /* Contact Page */
 
@@ -794,7 +768,7 @@ form {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 0 10px 50px 200px ;
+  margin: 0 10px 50px 200px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -804,4 +778,3 @@ form {
 }
 
 /* End Contact Page */
-
